@@ -19,6 +19,43 @@
 				   </a>  
           </nav>
       </header>
+	  <div class="selection">
+		  <form action="#">
+			  <p>Инфраструктура:</p> 
+			  <label>
+        		<input type="radio" name="one-radio" value="pool" checked>Бассейн
+			  </label><br> 
+			  <label>
+        		<input type="radio" name="two-radio" value="parking">Парковка
+			  </label><br> 
+			  <label>
+        		<input type="radio" name="three-radio" value="wi-fi">Wi-Fi
+			  </label>			  	 
+			  <p>Тип жилья:</p>
+			  <label>
+        		<input type="radio" name="for-radio" value="hotel" checked>Гостиница
+			  </label><br> 
+			  <label>
+        		<input type="radio" name="five-radio" value="motel" checked>Мотель
+			  </label><br> 
+			  <label>
+        		<input type="radio" name="six-radio" value="apartments" checked>Апартаменты
+			  </label>	
+			  <p>Стоимость в сутки (Р):</p>
+			  <div>
+				  <table>
+					  <tr>
+						  <td>от 0</td>
+						  <td>до 3000</td>
+					  </tr>
+				  </table>
+        		<input type="range" name="range" min="0" max="3000" value="2500" >
+			  </div><br>
+			  <div class="button">
+				  <input type="submit" value="Показать">
+			  </div>
+		  </form>
+	  </div>
   <main>
 	  <section class="filters">
 		  <h2 class="visually-hidden">Фильтр гостиниц</h2>
@@ -73,7 +110,7 @@
        </ul>
       <div class="footer-copyright">
         <b>Website by</b> 
-		 <a href="https://htmlacademy.ru/"><img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML Academy"></a>
+		 <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML Academy"></a>
       </div>          
       </footer>
   </body>
