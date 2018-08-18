@@ -19,44 +19,64 @@
 				   </a>  
           </nav>
       </header>
-	  <div class="selection">
-		  <form action="#">
-			  <p>Инфраструктура:</p> 
-			  <label>
-        		<input type="radio" name="one-radio" value="pool" checked>Бассейн
+	   <form class="selection" method="get" action="https://echo.htmlacademy.ru">
+			  <fieldset>
+				  <legend>Инфраструктура</legend>
+				  <ul>
+			  <li> 
+				  <label>
+        		<input type="checkbox" name="pool" checked>Бассейн
 			  </label>
-			  <label>
-        		<input type="radio" name="two-radio" value="parking">Парковка
+					  </li>
+					  <li>
+				<label>
+        		<input type="checkbox" name="parking">Парковка
 			  </label> 
+					  </li>
+					  <li>
 			  <label>
-        		<input type="radio" name="three-radio" value="wi-fi">Wi-Fi
-			  </label>			  	 
-			  <p>Тип жилья:</p>
-			  <label>
-        		<input type="radio" name="for-radio" value="hotel" checked>Гостиница
-			  </label>
-			  <label>
-        		<input type="radio" name="five-radio" value="motel" checked>Мотель
-			  </label> 
-			  <label>
-        		<input type="radio" name="six-radio" value="apartments" checked>Апартаменты
+        		<input type="checkbox" name="wi-fi">Wi-Fi
 			  </label>	
-			  <p>Стоимость в сутки (Р):</p>
-			  <div>
-				  <table>
+					  </li>
+					  </ul>
+				  </fieldset>
+			  <fieldset>
+			  <legend>Тип жилья:</legend>
+				  <ul>
+					  <li>
+			  <label>
+        		<input type="checkbox" name="hotel" checked>Гостиница
+			  </label>
+					  </li>
+					  <li>
+			  <label>
+        		<input type="checkbox" name="motel" checked>Мотель
+			  </label> 
+					  </li>
+					  <li>
+			  <label>
+        		<input type="checkbox" name="apartments" checked>Апартаменты
+			  </label>
+					  </li>
+						  </ul>
+			  </fieldset>
+			  <fieldset>
+			  <legend>Стоимость в сутки (Р):</legend>
+			  <table>
 					  <tr>
 						  <td>от 0</td>
 						  <td>до 3000</td>
 					  </tr>
 				  </table>
-        		<input type="range" name="range" min="0" max="3000" value="2500" >
-			  </div>
-			  <div class="button">
-				  <input type="submit" value="Показать">
-			  </div>
+        		<label>
+				  <input type="range" name="range" min="0" max="3000" value="2500">
+					</label>
+				  </fieldset>
+			  			  <button class="button">
+				  Показать
+							  </button>
 		  </form>
-	  </div>
-  <main>
+	  <main>
 	  <section class="filters">
 		  <h2 class="visually-hidden">Фильтр гостиниц</h2>
 	     		  <ul class="sorting">
