@@ -190,7 +190,104 @@ a {
 
   	background-color: #ffffff;
 }
-.footer-social{
-	
+
+.footer-hashtag {
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 26px;
+	text-transform: uppercase;
+	text-align: left;
 }
+
+.footer-social{
+	text-align: center;
+}
+
+.footer-copyright {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+	text-transform: uppercase;
+	vertical-align: middle;
+	text-align: right;
+}
+.selection {
+	background-color: #796a6a;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+.selection fieldset {
+	border: none;
+}
+
+.selection legend {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 21px;
+}
+
+.selection button {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	width: 133px;
+  	height: 32px;
+	padding: 5px;
+}
+
+.selection button:hover,
+.selection button:focus {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.filters p {
+	font-size: 10.5px;
+	font-weight: 400;
+	line-height: 17.5px;
+	color: #000000;
+}
+
+.filters p:first-of-type {
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 26px;
+	color: #000000;
+}
+
+.sorting {
+	list-style: none;
+}
+
+.sorting-item a {
+	;
+	color: rgba(0, 0, 0, 0.3);
+	font-size: 10.5px;
+	font-weight: 400;
+	line-height: 17.5px;
+	border-bottom: 1px dotted #81b3d2;
+}
+.sorting-item .sorting-item_active {
+	border-bottom: none;
+	color: #81b3d2;
+}
+.sorting-item a:hover,
+.sorting-item a:focus {
+	border-bottom: 1px dotted #81b3d2;
+	color: #81b3d2;
+}
+
+.sorting-item a:active {
+	border-bottom: none;
+	color: #000000;
+}
+
+
 
