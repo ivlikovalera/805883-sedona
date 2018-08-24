@@ -10,6 +10,8 @@ body {
 	text-transform: uppercase;
 
 	background-color: ffffff;
+	background-size: 1200px;
+	background-position: center;
 }
 
 a {
@@ -58,20 +60,25 @@ a {
 .visually-hidden {
 	display: none;
 }
+
 .preface p {
 	text-align: center;
 }
+
 .preface p:first-child {
 	font-size: 21px;
 	font-weight: 700;
+	line-height: inherit;
 }
 
 .advantages-list {
 	list-style: none;
 }
+
 .advantages-item {
-  text-align: center;
+	text-align: center;
 }
+
 .advantages-item h3 {
 	font-size: 21px;
 	line-height: 21px;
@@ -86,6 +93,104 @@ a {
 .advantages-content_blue {
 	background-color: #81b3d2;
 }
+
 .advantages-item_l p {
 	color: #ffffff;
 }
+
+.search h2 {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 700;
+	color: #000000;
+	text-align: center;
+}
+
+.search p,
+.search a {
+	text-align: center;
+}
+
+.button {
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 26px;
+	background-color: #766357;
+	color: #ffffff;
+	width: 289px;
+	height: 18px;
+	padding: 34px 138px 32px 139px;
+	border: 1px solid transparent;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.button:hover,
+.button:focus {
+	background-color: #604e43;
+}
+
+.button:active {
+	background-color: #503e33;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.offers label,
+.offers input {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 26px;
+}
+
+.offers input {
+	border: none;
+	background-color: #f2f2f2;
+}
+
+.offers input:hover,
+.offers input:focus {
+	background-color: #ebebeb;
+}
+
+.offers input:active {
+	background-color: #ffffff;
+	border: inset 2px solid #e5e5e5;
+}
+
+.offers button {
+	font-size: 21px;
+	font-weight: 700;
+	text-align: center;
+	vertical-align: middle;
+	padding: 16px 196px 21px 195px;
+	text-transform: uppercase;
+	border: 1px solid transparent;
+	color: #ffffff;
+	background-color: #81b3d2;
+}
+
+.offers button:hover,
+.offers button:focus {
+	color: #ffffff;
+	background-color: #669ec0;
+}
+
+.offers button:active {
+	color: rgba(255, 255, 255, 0.3);
+	background-color: #5496bd;
+}
+
+.map {
+	background-color: ffffff;
+	background-size: 1200px;
+}
+
+.page-footer {
+	color: #000000;
+
+  	background-color: #ffffff;
+}
+.footer-social{
+	
+}
+
