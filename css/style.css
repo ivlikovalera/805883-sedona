@@ -27,11 +27,19 @@ a {
 	background-color: #ffffff;
 }
 
+.site-navigation-nav {
+	display: flex;
+}
+
 .site-navigation-list {
+	display: flex;
 	list-style: none;
+	justify-content: space-between;
+	margin: 15px 73px;
 }
 
 .site-navigation-list a {
+	display: block;
 	color: #000000;
 }
 
@@ -48,13 +56,31 @@ a {
 	color: #766357;
 }
 
+.header-logo {
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
+
 .container {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.welcome {
+	position: absolute;
+	top: 150px;
+	left: 440px;
+}
+
+.postcard {
+	display: flex;
 	background-color: #ffffff;
-	background-image: url(../img/background-photo.png),
-	url(../img/polygon.svg);
-	background-size: 1200px;
-	background-position: top center;
+	background-image: url(../img/background-photo.png);
+	background-size: cover;
+	background-position: 100% 22%;
 	background-repeat: no-repeat;
+	min-height: 508px;
 }
 
 .visually-hidden {
@@ -70,7 +96,11 @@ a {
 	font-weight: 700;
 	line-height: inherit;
 }
-
+.advantages {
+	display: flex;
+}
+	
+}
 .advantages-list {
 	list-style: none;
 }
@@ -112,17 +142,17 @@ a {
 }
 
 .button {
+	/*поиск гостиницы в седоне*/
+	display: inline-block;
 	font-size: 21px;
 	font-weight: 700;
 	line-height: 26px;
 	background-color: #766357;
 	color: #ffffff;
-	width: 289px;
-	height: 18px;
+	width: 290px;
 	padding: 34px 138px 32px 139px;
 	border: 1px solid transparent;
 	text-align: center;
-	vertical-align: middle;
 }
 
 .button:hover,
@@ -154,20 +184,21 @@ a {
 
 .offers input:active {
 	background-color: #ffffff;
-	border: inset 2px solid; 
+	border: inset 2px solid;
 	border-color: #e5e5e5;
 }
 
-.offers button {
+.button-search {
 	font-size: 21px;
+	line-height: 26px;
 	font-weight: 700;
 	text-align: center;
-	vertical-align: middle;
-	padding: 16px 196px 21px 195px;
+	padding: 16px 195px 16px 195px;
 	text-transform: uppercase;
 	border: 1px solid transparent;
 	color: #ffffff;
 	background-color: #81b3d2;
+	margin-bottom: 55px;
 }
 
 .offers button:hover,
@@ -214,6 +245,11 @@ a {
 }
 
 .selection {
+	display: flex;
+	min-height: 219px;
+	background-image: url(../img/filter-background@2x.jpg);
+	background-position: 100% 50%;
+	background-size: cover;
 	background-color: #796a6a;
 	color: #ffffff;
 	font-size: 14px;
@@ -315,17 +351,19 @@ a {
 }
 
 .book a {
+	display: inline-block;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 21px;
 	background-color: #766357;
 	color: #ffffff;
-	width: 142px;
-	height: 27px;
+	width: 110px;
+
 	padding: 7px 15px 7px 15px;
 	border: 1px solid transparent;
 	text-align: center;
 	vertical-align: middle;
+	margin-bottom: 31px;
 }
 
 .book a:hover,
@@ -340,17 +378,18 @@ a {
 }
 
 .more a {
+	display: inline-block;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 21px;
 	background-color: #81b3d2;
 	color: #ffffff;
-	width: 110px;
-	height: 27px;
+	width: 76px;
 	padding: 7px 16px 6px 16px;
 	border: 1px solid transparent;
 	text-align: center;
 	vertical-align: middle;
+	margin-bottom: 31px;
 }
 
 .more a:hover,
