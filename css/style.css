@@ -8,16 +8,17 @@ body {
 	font-weight: 400;
 	color: #333333;
 	text-transform: uppercase;
-
-	background-color: #ffffff;
-	background-size: 1200px;
-	background-position: center;
+	background-color: f2f2f2;
+	max-width: 1200px;
 }
 
 a {
 	text-decoration: none;
 }
-
+img {
+  max-width: 100%;
+  height: auto;
+}
 .page-header {
 	font-size: 14px;
 	line-height: 26px;
@@ -32,11 +33,16 @@ a {
 }
 
 .site-navigation-list {
+	margin: 0;
+	padding: 0;
 	display: flex;
+	flex-wrap: wrap;
+	max-width: 1056px;
 	list-style: none;
 	justify-content: space-between;
 	margin: 15px 73px;
 }
+
 
 .site-navigation-list a {
 	display: block;
@@ -51,6 +57,9 @@ a {
 .site-navigation-list a:active {
 	color: rgba(0, 0, 0, 0.3);
 }
+.site-navigation-item {
+	text-align: center;
+}
 
 .site-navigation-item_activ {
 	color: #766357;
@@ -59,8 +68,8 @@ a {
 .header-logo {
 	position: absolute;
 	top: 0;
-	left: 50%;
-}
+	right: 50%;
+	}
 
 .container {
 	max-width: 1200px;
@@ -70,7 +79,7 @@ a {
 .welcome {
 	position: absolute;
 	top: 150px;
-	left: 440px;
+	left: 370px;
 }
 
 .postcard {
@@ -81,10 +90,25 @@ a {
 	background-position: 100% 22%;
 	background-repeat: no-repeat;
 	min-height: 508px;
+	margin-bottom: 100px;
 }
 
-.visually-hidden {
-	display: none;
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .preface p {
@@ -95,18 +119,27 @@ a {
 	font-size: 21px;
 	font-weight: 700;
 	line-height: inherit;
+	margin-bottom: 36px;
 }
+.preface p:nth-child(2) {
+	margin-bottom: 55px;
+}
+
 .advantages {
 	display: flex;
+	flex-direction: column;
 }
-	
-}
+
 .advantages-list {
 	list-style: none;
 }
 
 .advantages-item {
 	text-align: center;
+}
+
+.advantages-content {
+	display: flex;
 }
 
 .advantages-item h3 {
@@ -218,7 +251,10 @@ a {
 }
 
 .page-footer {
+	display: flex;
+	justify-content: space-around;
 	color: #000000;
+	opacity: 0.9;
 
 	background-color: #ffffff;
 }
@@ -228,20 +264,20 @@ a {
 	font-weight: 700;
 	line-height: 26px;
 	text-transform: uppercase;
-	text-align: left;
+	text-align: center;	
 }
 
 .footer-social {
+	list-style: none;
 	text-align: center;
 }
-
 .footer-copyright {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 26px;
 	text-transform: uppercase;
 	vertical-align: middle;
-	text-align: right;
+	text-align: center;
 }
 
 .selection {
@@ -416,3 +452,5 @@ a {
 	text-align: center;
 	vertical-align: middle;
 }
+
+
