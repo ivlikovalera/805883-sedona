@@ -15,10 +15,12 @@ body {
 a {
 	text-decoration: none;
 }
+
 img {
-  max-width: 100%;
-  height: auto;
+	max-width: 100%;
+	height: auto;
 }
+
 .page-header {
 	font-size: 14px;
 	line-height: 26px;
@@ -57,6 +59,7 @@ img {
 .site-navigation-list a:active {
 	color: rgba(0, 0, 0, 0.3);
 }
+
 .site-navigation-item {
 	text-align: center;
 }
@@ -69,7 +72,7 @@ img {
 	position: absolute;
 	top: 0;
 	right: 50%;
-	}
+}
 
 .container {
 	max-width: 1200px;
@@ -96,19 +99,19 @@ img {
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
-  position: absolute;
+	position: absolute;
 
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
 
-  white-space: nowrap;
+	white-space: nowrap;
 
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 
 .preface p {
@@ -121,13 +124,17 @@ input[type="radio"].visually-hidden {
 	line-height: inherit;
 	margin-bottom: 36px;
 }
+
 .preface p:nth-child(2) {
 	margin-bottom: 55px;
 }
 
 .advantages {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: flex-start;
 }
 
 .advantages-list {
@@ -135,12 +142,21 @@ input[type="radio"].visually-hidden {
 }
 
 .advantages-item {
+	box-sizing: border-box;
+	width: 273px;
+	height: 80px;
 	text-align: center;
+	margin: 164px 63px 86px 64px 
 }
 
 .advantages-content {
 	display: flex;
+	box-sizing: border-box;
+	width: 400px;
+	height: 256px;
+	margin-bottom: 50px;
 }
+
 
 .advantages-item h3 {
 	font-size: 21px;
@@ -264,13 +280,14 @@ input[type="radio"].visually-hidden {
 	font-weight: 700;
 	line-height: 26px;
 	text-transform: uppercase;
-	text-align: center;	
+	text-align: center;
 }
 
 .footer-social {
 	list-style: none;
 	text-align: center;
 }
+
 .footer-copyright {
 	font-size: 14px;
 	font-weight: 400;
@@ -452,5 +469,3 @@ input[type="radio"].visually-hidden {
 	text-align: center;
 	vertical-align: middle;
 }
-
-
