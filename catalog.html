@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+
+<head>
 	<meta charset="utf-8">
 	<title>HTML Academy: Седона</title>
 	<link rel="stylesheet" href="css/normalize.css">
@@ -79,7 +80,7 @@
 				  Показать
 							  </button>
 	</form>
-	<main>
+	<main class="catalog-main">
 		<section class="filters">
 			<h2 class="visually-hidden">Фильтр гостиниц</h2>
 			<p>Найдено: 3</p>
@@ -93,16 +94,22 @@
 		<section class="catalog">
 			<h2 class="visually-hidden">Список гостиниц</h2>
 			<div class="hotel">
-				<div class="catalog-pictures">
+				<div class="hotel-pictures">
 					<img src="img/layer-21@3x.png" width="135" height="90" alt="Amara Resort">
 				</div>
-				<div class="catalog-item">
+				<div class="hotel-content">
+					<div class="hotel-content_stroke1">
 					<h3><a href="#">Amara Resort &amp; Spa</a></h3>
+					</div>
+					<div class="hotel-content_stroke2">
 					<p>Гостиница</p>
 					<p>От 4000р.</p>
+					</div>
+					<div class="hotel-content_stroke3">
 					<div class="more"><a href="#">Подробнее</a></div>
 					<div class="book"><a href="#">Забронировать</a></div>
 					<span>Рейтинг:8,5</span>
+					</div>
 				</div>
 			</div>
 			<div class="hotel">
@@ -110,27 +117,39 @@
 					<img src="img/layer-89-copy@3x.png" width="135" height="90" alt="Desert Quail Inn">
 				</div>
 				<div class="hotel-content">
+				<div class="hotel-content_stroke1">
 					<h3><a href="#">Desert Quail Inn</a></h3>
+					</div>
+					<div class="hotel-content_stroke2">
 					<p>Мотель</p>
 					<p>От 3000р.</p>
+					</div>
+					<div class="hotel-content_stroke3">
 					<div class="more"><a href="#">Подробнее</a></div>
 					<div class="book"><a href="#">Забронировать</a></div>
 					<span>Рейтинг:8,9</span>
+					</div>
 				</div>
 			</div>
-			<div class="hotel">
-				<div class="catalog-pictures">
-					<img src="img/layer-22@3x.png" width="135" height="90" alt="Villas at Poco Diablo">
+				<div class="hotel">
+					<div class="hotel-pictures">
+						<img src="img/layer-22@3x.png" width="135" height="90" alt="Villas at Poco Diablo">
+					</div>
+					<div class="hotel-content">
+					<div class="hotel-content_stroke1">
+						<h3><a href="#">Villas at Poco Diablo</a></h3>
+						</div>
+						<div class="hotel-content_stroke2">
+						<p>Апартаменты</p>
+						<p>От 2000р.</p>
+						</div>
+						<div class="hotel-content_stroke3">
+						<div class="more"><a href="#">Подробнее</a></div>
+						<div class="book"><a href="#">Забронировать</a></div>
+						<span>Рейтинг:9,2</span>
+						</div>
+					</div>
 				</div>
-				<div class="catalog-item">
-					<h3><a href="#">Villas at Poco Diablo</a></h3>
-					<p>Апартаменты</p>
-					<p>От 2000р.</p>
-					<div class="more"><a href="#">Подробнее</a></div>
-					<div class="book"><a href="#">Забронировать</a></div>
-					<span>Рейтинг:9,2</span>
-				</div>
-			</div>
 		</section>
 	</main>
 	<footer class="page-footer">
@@ -146,4 +165,5 @@
 		</div>
 	</footer>
 </body>
+
 </html>
