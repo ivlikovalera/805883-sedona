@@ -274,15 +274,16 @@ input[type="radio"].visually-hidden {
 .button {
 	/*поиск гостиницы в седоне*/
 	display: inline-block;
+	box-sizing: border-box;
+	width: 568px;
 	font-size: 21px;
 	font-weight: 700;
 	line-height: 26px;
 	background-color: #766357;
 	color: #ffffff;
-	width: 290px;
-	padding: 34px 138px 32px 139px;
-	border: 1px solid transparent;
+	padding: 30px 135px 30px 135px;
 	text-align: center;
+	margin-left: 316px;
 }
 
 .button:hover,
@@ -295,14 +296,77 @@ input[type="radio"].visually-hidden {
 	color: rgba(255, 255, 255, 0.3);
 }
 
+.modal {
+	position: absolute;
+	background-color: #ffffff;
+	box-shadow: 0 30px 50px rgba(0, 0, 0, 0.4);
+	width: 568px;
+	min-height: 393px;
+	margin-left: 316px;
+	z-index: 1;
+}
+
+.search-item_arrival {
+	margin-top: 55px;
+	margin-bottom: 0;
+	padding: 0;
+	margin-right: 55px;
+	margin-left: 55px;
+}
+
+.search-item_departure {
+	margin-top: 29px;
+	margin-bottom: 0;
+	margin-right: 55px;
+	margin-left: 55px;
+}
+
+.search-item_adults {
+	display: inline-block;
+	margin-left: 55px;
+	margin-right: 52px;
+	margin-top: 30px;
+	margin-bottom: 55px;
+}
+
+.search-item_children {
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 55px;
+}
+
+.search-item_adults input {
+	width: 114px;
+	margin-left: 35px;
+}
+
+
+.search-item_children input {
+	width: 114px;
+	margin-left: 22px;
+}
+
+.search-item_arrival input {
+	width: 344px;
+	margin-left: 18px;
+}
+
+.search-item_departure input {
+	width: 344px;
+	margin-left: 18px;
+}
+
 .offers label,
 .offers input {
+	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 26px;
 }
 
 .offers input {
+	padding-top: 6px;
+	padding-bottom: 6px;
 	border: none;
 	background-color: #f2f2f2;
 }
@@ -323,12 +387,13 @@ input[type="radio"].visually-hidden {
 	line-height: 26px;
 	font-weight: 700;
 	text-align: center;
-	padding: 16px 195px 16px 195px;
+	padding: 15px 194px 15px 194px;
 	text-transform: uppercase;
 	border: 1px solid transparent;
+	width: 458px;
 	color: #ffffff;
 	background-color: #81b3d2;
-	margin-bottom: 55px;
+	margin-left: 55px;
 }
 
 .offers button:hover,
@@ -406,6 +471,7 @@ input[type="radio"].visually-hidden {
 	line-height: 21px;
 	margin-bottom: 0;
 }
+
 .infrastructure {
 	display: flex;
 	flex-direction: column;
