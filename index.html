@@ -24,8 +24,8 @@
 		</nav>
 	</header>
 	<main class="container">
-	<div class="postcard">
-		<img src="img/intro-welcome.svg" class="welcome" width="459" height="353" alt="welcome to the gorgeous Sedona">
+		<div class="postcard">
+			<img src="img/intro-welcome.svg" class="welcome" width="459" height="353" alt="welcome to the gorgeous Sedona">
 		</div>
 		<div class="preface">
 			<p>Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
@@ -42,21 +42,21 @@
 					<img src="img/layer-10@3x.jpg" width="512" height="256" alt="City sedona">
 				</li>
 				<li class="advantages-item_s advantages-item">
-				<div class="advantages-content advantages-content_white house">
-					<h3>Жильё</h3>
-					<p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-				</div>
-				</li>
-				<li class="advantages-item_s advantages-item">
-				<div class="advantages-content advantages-content_white food">
-					<h3>Еда</h3>
-					<p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+					<div class="advantages-content advantages-content_white house">
+						<h3>Жильё</h3>
+						<p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
 					</div>
 				</li>
 				<li class="advantages-item_s advantages-item">
-				<div class="advantages-content advantages-content_white souvenirs">
-					<h3>Сувениры</h3>
-					<p>Не только китайского, но и местного производства!</p>
+					<div class="advantages-content advantages-content_white food">
+						<h3>Еда</h3>
+						<p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+					</div>
+				</li>
+				<li class="advantages-item_s advantages-item">
+					<div class="advantages-content advantages-content_white souvenirs">
+						<h3>Сувениры</h3>
+						<p>Не только китайского, но и местного производства!</p>
 					</div>
 				</li>
 				<li class="advantages-item advantages-item_l">
@@ -65,7 +65,7 @@
 						<h3>Там есть<br> мост дьявола</h3>
 						<p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
 					</div>
-									</li>
+				</li>
 				<li class="advantages-item advantages-item_s advantages-number advantages-content_gray advantages-content">
 					<h3>Небольшая площадь</h3>
 					<p>Все достопримечательности находятся очень близко</p>
@@ -85,38 +85,45 @@
 			<p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
 			<a href="#" class="button">Поиск гостиницы в Седоне</a>
 			<section class="modal">
-			<form class="offers" action="https://echo.htmlacademy.ru" method="post">
-				<p class="search-item search-item_arrival">
-					<label for="arrival">Дата заезда:</label>
-					<input id="arrival" type="text" name="arr-date" value="24 апреля 2017" placeholder="24 апреля 2017">
-				</p>
-				<p class="search-item search-item_departure">
-					<label for="departure">Дата выезда:</label>
-					<input id="departure" type="text" name="dep-date" value="4 июля 2017" placeholder="4 июля 2017">
-				</p>
-				<p class="search-item search-item_adults">
-					<label for="adults">Взрослые:</label>
-					<input id="adults" type="text" name="num" value="2" placeholder="2">
-				</p>
-				<p class="search-item search-item_children">
-					<label for="children">Дети:</label>
-					<input id="children" type="text" name="num_1" value="0" placeholder="0">
-				</p>
-				<button class="button-search" type="submit">Найти</button>
-			</form>
+				<form class="offers" action="https://echo.htmlacademy.ru" method="post">
+					<p class="search-item search-item_arrival">
+						<label for="arrival">Дата заезда:</label>
+						<input id="arrival" type="text" name="arr-date" value="24 апреля 2017" placeholder="24 апреля 2017">
+					</p>
+					<p class="search-item search-item_departure">
+						<label for="departure">Дата выезда:</label>
+						<input id="departure" type="text" name="dep-date" value="4 июля 2017" placeholder="4 июля 2017">
+					</p>
+					<p class="search-item search-item_adults">
+						<label for="adults">Взрослые:</label>
+						<input id="adults" type="text" name="num" value="2" placeholder="2">
+					</p>
+					<p class="search-item search-item_children">
+						<label for="children">Дети:</label>
+						<input id="children" type="text" name="num_1" value="0" placeholder="0">
+					</p>
+					<button class="button-search" type="submit">Найти</button>
+				</form>
 			</section>
 			<img class="map" src="img/map@3x.jpg" width="1200" height="593" alt="map">
 		</section>
 	</main>
-	<footer class="page-footer_main">
+	<footer class="page-footer">
 		<p class="footer-hashtag">#visitsedona</p>
 		<ul class="footer-social">
-			<li><a class="social-button" href="#">Вконтакте</a></li>
-			<li><a class="social-button" href="#">Фейсбук</a></li>
-			<li><a class="social-button" href="#">Инстаграм</a></li>
+			<li><a class="social-button" href="#"><span class="visually-hidden">Твиттер</span>
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="15" viewBox="0 0 17 15"><path fill="#FFF" d="M10.95.144c1.685-.496 2.984.27 3.577 1.179.673-.231 1.331-.481 2.011-.708a2.345 2.345 0 0 1-.857 1.768c.685.17 1.304-.491 1.304-.491-.169 1-1.006 1.788-1.563 2.024-.231 6.75-3.175 11.217-10.077 11.082h-.446c-.41 0-4.164-.46-4.898-1.887 2.271.196 3.893-.422 4.693-1.177-.96-.3-2.679-.477-2.979-2.95.349.106.564.228 1.19.119C1.705 8.247.374 7.53.448 5.33c.285.328 1.067.536 1.34.472C1.085 5.561-.182 2.442.894.85c1.818 1.854 3.735 3.606 7.152 3.773C8.254 2.33 9.183.793 10.95.144z"/></svg>
+			</a></li>
+			<li><a class="social-button" href="#"><span class="visually-hidden">Фейсбук</span>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22"><path fill="#FFF" d="M12 4V0H8a4 4 0 0 0-4 4v4H0v4h4v10h4V12h4V8H8V4h4z"/></svg>
+			</a></li>
+			<li><a class="social-button" href="#"><span class="visually-hidden">Ютуб</span>
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="16" viewBox="0 0 20 16"><path fill="#FFF" d="M17 0H3C1.35 0 0 1.35 0 3v10c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3zM6.027 11.998V4.002L15.014 8l-8.987 3.998z"/></svg>
+
+			</a></li>
 		</ul>
 		<div class="footer-copyright">
-			<b>Website by</b>
+			<p>Website by</p>
 			<a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML Academy"></a>
 		</div>
 	</footer>
