@@ -84,6 +84,7 @@
 			<h2>Заинтересовались?</h2>
 			<p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
 			<a href="#" class="button">Поиск гостиницы в Седоне</a>
+			<section class="modal">
 			<form class="offers" action="https://echo.htmlacademy.ru" method="post">
 				<p class="search-item">
 					<label for="arrival">Дата заезда:</label>
@@ -95,14 +96,15 @@
 				</p>
 				<p class="search-item">
 					<label for="adults">Взрослые:</label>
-					<input id="adults" type="number" name="num" value="2" placeholder="2">
+					<input id="adults" type="text" name="num" value="2" placeholder="2">
 				</p>
 				<p class="search-item">
 					<label for="children">Дети:</label>
-					<input id="children" type="number" name="count" value="0" placeholder="0">
+					<input id="children" type="text" name="num_1" value="0" placeholder="0">
 				</p>
 				<button class="button-search" type="submit">Найти</button>
 			</form>
+			</section>
 			<img class="map" src="img/map@3x.jpg" width="1200" height="593" alt="map">
 		</section>
 	</main>
