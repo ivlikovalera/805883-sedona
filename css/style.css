@@ -355,7 +355,16 @@ input[type="radio"].visually-hidden {
 	width: 344px;
 	margin-left: 18px;
 }
-
+.offers input[type="text"] {
+	box-sizing: border-box;
+	padding-left: 12px;
+}
+.search-item_arrival input[type="text"],
+.search-item_departure input[type="text"] {
+	background-image: url(../img/calendar.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
 .offers label,
 .offers input {
 	text-transform: uppercase;
@@ -710,7 +719,6 @@ input[type="radio"].visually-hidden {
 .hotel {
 	display: flex;
 	box-sizing: border-box;
-	height: 150px;
 	background-color: #ffffff;
 	margin-bottom: 1px;
 
