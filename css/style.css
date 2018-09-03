@@ -501,10 +501,20 @@ input[type="radio"].visually-hidden {
 	margin-right: 101px;
 }
 
-.footer-copyright img {
+.name-logo {
+	width: 115px;
+	height: 41px;
 	margin-top: 39px;
 }
 
+.name-logo:hover path,
+.name-logo:focus path {
+	fill: #81b3d2;
+}
+
+.name-logo:active path {
+	fill: #bdbbbc;
+}
 
 /*футер конец*/
 
