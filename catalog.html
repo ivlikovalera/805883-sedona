@@ -16,75 +16,75 @@
 				<li class="site-navigation-item"><a href="#">Информация</a></li>
 				<li class="site-navigation-item"><a href="#">Фото и видео</a></li>
 				<li class="site-navigation-item"><a href="#">Карта штата</a></li>
-				<li class="site-navigation-item site-navigation-item_activ">Гостиницы</li>
+				<li class="site-navigation-item site-navigation-item_activ"><a href="#">Гостиницы</a></li>
 			</ul>
 			<a class="header-logo" href="index.html">
                    <img src="img/logo-sedona.svg" width="140" height="71" alt="sity of Sedona">
 				   </a>
 		</nav>
 	</header>
-		<form class="selection" method="get" action="https://echo.htmlacademy.ru">
-			<div class="infrastructure">
-				<fieldset>
-					<legend>Инфраструктура</legend>
-					<ul>
-						<li>
-							<label>
+	<form class="selection" method="get" action="https://echo.htmlacademy.ru">
+		<div class="infrastructure">
+			<fieldset>
+				<legend>Инфраструктура</legend>
+				<ul>
+					<li>
+						<label>
         		<input type="checkbox" name="pool" checked>Бассейн
 			  </label>
-						</li>
-						<li>
-							<label>
+					</li>
+					<li>
+						<label>
         		<input type="checkbox" name="parking">Парковка
 			  </label>
-						</li>
-						<li>
-							<label>
+					</li>
+					<li>
+						<label>
         		<input type="checkbox" name="wi-fi">Wi-Fi
 			  </label>
-						</li>
-					</ul>
-				</fieldset>
-			</div>
-			<div class="type-of-housing">
-				<fieldset>
-					<legend>Тип жилья:</legend>
-					<ul>
-						<li>
-							<label>
+					</li>
+				</ul>
+			</fieldset>
+		</div>
+		<div class="type-of-housing">
+			<fieldset>
+				<legend>Тип жилья:</legend>
+				<ul>
+					<li>
+						<label>
         		<input type="checkbox" name="hotel" checked>Гостиница
 			  </label>
-						</li>
-						<li>
-							<label>
+					</li>
+					<li>
+						<label>
         		<input type="checkbox" name="motel" checked>Мотель
 			  </label>
-						</li>
-						<li>
-							<label>
+					</li>
+					<li>
+						<label>
         		<input type="checkbox" name="apartments" checked>Апартаменты
 			  </label>
-						</li>
-					</ul>
-				</fieldset>
+					</li>
+				</ul>
+			</fieldset>
+		</div>
+		<div class="filter-range">
+			<div class="filter-range-title">Стоимость в сутки (р):</div>
+			<div class="price-controls">
+				<label class="min-price">от <input type="text" name="min-price" value="0"></label>
+				<label class="max-price">до <input type="text" name="max-price" value="3000"></label>
 			</div>
-			<div class="filter-range">
-      <div class="filter-range-title">Стоимость в сутки (р):</div>
-      <div class="price-controls">
-        <label class="min-price">от <input type="text" name="min-price" value="0"></label>
-        <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
-      </div>
-      <div class="range-controls">
-        <div class="scale">
-          <div class="bar"></div>
-        </div>
-        <div class="range-toggle range-toggle-min"></div>
-        <div class="range-toggle range-toggle-max"></div>
-      </div>
-      <button class="btn-transparent" type="submit">Показать</button>
-    </div>
-		</form>
-		<main class="catalog-main">
+			<div class="range-controls">
+				<div class="scale">
+					<div class="bar"></div>
+				</div>
+				<div class="range-toggle range-toggle-min"></div>
+				<div class="range-toggle range-toggle-max"></div>
+			</div>
+			<button class="btn-transparent" type="submit">Показать</button>
+		</div>
+	</form>
+	<main class="catalog-main">
 		<section class="filters">
 			<div class="output">
 				<h2 class="visually-hidden">Фильтр гостиниц</h2>
@@ -107,7 +107,7 @@
 				<div class="hotel-content">
 					<div class="hotel-row">
 						<h3 class="hotel-name">
-						<a href="#">Amara Resort &amp; Spa</a></h3>
+							<a href="#">Amara Resort &amp; Spa</a></h3>
 					</div>
 					<div class="hotel-row">
 						<p class="hotel-text">Гостиница</p>
