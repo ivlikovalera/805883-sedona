@@ -518,10 +518,13 @@ input[type="radio"].visually-hidden {
 
 /*футер конец*/
 
+/*форма в catalog*/
+
 .selection {
 	display: flex;
 	justify-content: flex-start;
-	height: 217px;
+	min-height: 217px;
+	width: 100%;
 	background-image: url(../img/filter-background@2x.jpg);
 	background-position: 100% 50%;
 	background-size: cover;
@@ -531,11 +534,17 @@ input[type="radio"].visually-hidden {
 	font-weight: 400;
 	line-height: 21px;
 	margin-bottom: 0;
+	padding-left: 0;
 }
 
 .infrastructure {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+	flex-wrap: wrap;
+	padding-left: 0;
 	margin-left: 72px;
 	margin-right: 112px;
 }
@@ -543,9 +552,20 @@ input[type="radio"].visually-hidden {
 .type-of-housing {
 	display: flex;
 	flex-direction: column;
+	align-items: flex-start;
+	width: 100%;
+	flex-wrap: wrap;
 	margin-right: auto;
 }
 
+.inner {
+	padding: 0;
+	margin: 0;
+}
+.inner ul {
+	padding: 0;
+	margin: 0;
+}
 .selection ul {
 	list-style: none;
 }
@@ -694,6 +714,8 @@ input[type="radio"].visually-hidden {
 	color: #000000;
 	background-color: #ffffff;
 }
+
+/*конец формы в catalog*/
 
 .filters {
 	background-color: #ffffff;
