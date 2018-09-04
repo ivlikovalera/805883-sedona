@@ -257,12 +257,14 @@ input[type="radio"].visually-hidden {
 	padding-bottom: 85px;
 }
 
-.advantages-list img {
+.advantages-image{
 	flex-basis: 66.6%;
 	overflow: hidden;
-
 }
-
+.advantages-image img {
+	width: 100%;
+	height: auto;
+}
 .advantages-item_l p {
 	color: #ffffff;
 }
