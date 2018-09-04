@@ -11,6 +11,7 @@ body {
 	background-color: #f2f2f2;
 	max-width: 1200px;
 	box-shadow: 0 0 10px 4px #dbdbdb;
+	position: relative;
 }
 
 a {
@@ -388,31 +389,25 @@ input[type="radio"].visually-hidden {
 	margin-left: 55px;
 }
 
-.search-item_adults {
-	display: inline-block;
-	margin-left: 55px;
-	margin-right: 52px;
-	margin-top: 30px;
-	margin-bottom: 55px;
-}
-
-.search-item_children {
-	display: inline-block;
-	margin-top: 30px;
-	margin-bottom: 55px;
-}
-
+.search-inner {
+	display: flex;
+	margin-top: 29px;
+	padding-right: 55px;
+	padding-left: 55px;
+	margin-bottom: 54px;
+	}
 .search-item_adults input {
-	width: 114px;
+	width: 112px;
 	margin-left: 35px;
 }
 
-
 .search-item_children input {
-	width: 114px;
-	margin-left: 22px;
+	width: 112px;
+	margin-left: 26px;
+	} 
+.search-item_children {
+	margin-left: 53px;
 }
-
 .search-item_arrival input {
 	width: 344px;
 	margin-left: 18px;
@@ -426,13 +421,6 @@ input[type="radio"].visually-hidden {
 .offers input[type="text"] {
 	box-sizing: border-box;
 	padding-left: 12px;
-}
-
-.search-item_arrival input[type="text"],
-.search-item_departure input[type="text"] {
-	background-image: url(../img/calendar.svg);
-	background-repeat: no-repeat;
-	background-position: center;
 }
 
 .offers label,
@@ -502,7 +490,12 @@ input[type="radio"].visually-hidden {
 	color: #000000;
 	background-color: #ffffff;
 }
-
+.page-footer_1ndex {
+	position: absolute;
+	bottom: 0;
+	width: 1200px;
+	background-color: rgba(255,255,255,0.9);
+}
 
 .footer-hashtag {
 	font-size: 21px;
