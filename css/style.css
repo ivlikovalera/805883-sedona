@@ -375,20 +375,37 @@ input[type="radio"].visually-hidden {
 }
 
 .search-item_arrival {
+	display: inline-block;
 	margin-top: 55px;
 	margin-bottom: 0;
 	padding: 0;
 	margin-right: 55px;
 	margin-left: 55px;
 }
-
+.search-item svg {
+	fill: #a9a9a9;
+}
+.search-item svg:hover,
+.search-item svg:focus {
+	fill: #000000;
+}
+.search-item svg:active {
+	fill: #81b3d2;
+}
 .search-item_departure {
 	margin-top: 29px;
 	margin-bottom: 0;
 	margin-right: 55px;
 	margin-left: 55px;
 }
-
+.search-input {
+	position: relative;
+}
+.search-input svg {
+	position: absolute;
+	top: -2px;
+	left: -2px;
+}
 .search-inner {
 	display: flex;
 	margin-top: 29px;
