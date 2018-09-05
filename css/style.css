@@ -449,8 +449,8 @@ input[type="radio"].visually-hidden {
 
 .search-wrapper span {
 	position: absolute;
-	top: 0;
-	right: -34px;
+	top: 12px;
+	left: 20px;
 	width: 14px;
 	height: 14px;
 	font-size: 0;
@@ -458,10 +458,8 @@ input[type="radio"].visually-hidden {
 	border: 0;
 	cursor: pointer;
 }
-.search-wrapper span::before:hover,
-.search-wrapper span::after:hover,
-.search-wrapper span::before:focus,
-.search-wrapper span::after:focus {
+.search-wrapper span:hover,
+.search-wrapper span:focus {
 	background-color: #000000;
 }
 
@@ -470,8 +468,8 @@ input[type="radio"].visually-hidden {
 .search-wrapper span:first-child::after {
 	content: "";
 	position: absolute;
-	top: 10px;
-	left: 2px;
+	top: 4px;
+	left: 22px;
 	width: 12px;
 	height: 3px;
 	background-color: #a9a9a9;
