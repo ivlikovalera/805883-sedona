@@ -717,7 +717,7 @@ input:focus ~ .search-btn::after {
 	margin-left: 72px;
 	margin-right: auto;
 	margin-top: 28px;
-	margin-bottom: 31px;
+	margin-bottom: 5px;
 }
 
 .infrastructure ul,
@@ -732,19 +732,24 @@ input:focus ~ .search-btn::after {
 	width: 235px;
 	flex-wrap: wrap;
 	margin: auto;
-	margin-left: 0;
+	margin-left: -15px;
 	margin-top: 28px;
-	margin-bottom: 31px;
+	margin-bottom: 5px;
 }
 
 .checkbox-item {
+	display: inline-block;
 	position: relative;
 
 	padding-left: 30px;
     margin-bottom: 26px;
 	cursor: pointer;
 }
-
+.checkbox-item p{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 13px;
+}
 
 .checkbox-item checkbox {
 	list-style: none;
@@ -774,7 +779,7 @@ input:focus ~ .search-btn::after {
 	text-transform: uppercase;
 	margin: auto;
 	margin-right: 74px;
-	margin-top: 30px;
+	margin-top: 25px;
 }
 
 .filter-range-title {
