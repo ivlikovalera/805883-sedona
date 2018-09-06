@@ -741,9 +741,10 @@ input:focus ~ .search-btn::after {
 	position: relative;
 
 	padding-left: 30px;
-
+    margin-bottom: 26px;
 	cursor: pointer;
 }
+
 
 .checkbox-item checkbox {
 	list-style: none;
