@@ -554,24 +554,38 @@ input[type='radio'].visually-hidden {
 
 	position: absolute;
 
-	width: 14px;
-	height: 14px;
+	width: 12px;
+	height: 3px;
 
 	cursor: pointer;
 
 	border: 0;
 }
 
-.search-btn_plus {
+.search-btn_plus_adult {
 	top: 13px;
-	right: 5px;
+	right: 17px;
 
 	background-color: transparent;
 }
 
-.search-btn_minus {
+.search-btn_minus_adult {
 	top: 13px;
-	left: 35px;
+	left: 53px;
+
+	background-color: transparent;
+}
+
+.search-btn_plus_children {
+	top: 13px;
+	right: 14px;
+
+	background-color: transparent;
+}
+
+.search-btn_minus_children {
+	top: 13px;
+	left: 41px;
 
 	background-color: transparent;
 }
@@ -601,14 +615,14 @@ input[type='radio'].visually-hidden {
 	background-color: #000;
 }
 
-input:hover ~ .search-btn::before,
-input:hover ~ .search-btn::after {
+.search-btn:focus::before,
+.search-btn:focus::after {
 	background-color: #000;
 }
 
-input:focus ~ .search-btn::before,
-input:focus ~ .search-btn::after {
-	background-color: #fff;
+.search-btn:active::before,
+.search-btn:active::after {
+	background-color: #81b3d2;
 }
 
 .offers input[type='text'] {
