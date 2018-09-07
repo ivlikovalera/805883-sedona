@@ -415,7 +415,7 @@ input[type='radio'].visually-hidden {
 	box-sizing: border-box;
 	width: 568px;
 	margin-left: 316px;
-	padding: 30px 135px 30px 135px;
+	padding: 30px 135px 31px 135px;
 
 	text-align: center;
 
@@ -439,7 +439,7 @@ input[type='radio'].visually-hidden {
 	display: flex;
 
 	width: 568px;
-	min-height: 393px;
+	min-height: 392px;
 	margin-left: 316px;
 
 	background-color: #fff;
@@ -450,23 +450,28 @@ input[type='radio'].visually-hidden {
 	display: flex;
 	flex-direction: column;
 
+	width: 100%;
 	margin-top: 55px;
 	margin-right: 55px;
 	margin-bottom: 0;
-	margin-left: 55px;
+	margin-left: 56px;
 	justify-content: flex-start;
 }
 
 .search-item_arrival {
 	display: flex;
 	margin-bottom: 29px;
+	align-items: center;
 }
 
 .search-item_departure {
 	display: flex;
+	margin-bottom: 30px;
+	align-items: center;
 }
 
 .search-item svg {
+	margin-right: 0;
 	fill: #a9a9a9;
 }
 
@@ -480,39 +485,50 @@ input[type='radio'].visually-hidden {
 }
 
 
-
 .search-input {
 	position: relative;
 	margin-left: 4px;
 }
 
-.search-input input:first-child {
-	margin-left: 13px;
-}
 
 .search-input svg {
 	position: absolute;
 	top: 8px;
-	left: 316px;
+	right: 7px;
+}
+
+.search-item_arrival input {
+	width: 346px;
+	margin-left: 19px;
+}
+
+.search-item_departure input {
+	width: 346px;
+	margin-left: 16px;
 }
 
 .search-inner {
 	display: flex;
+	justify-content: flex-start;
 
-	margin-top: 29px;
 	margin-bottom: 54px;
-	padding-right: 55px;
-	padding-left: 55px;
+	margin-left: 56px;
+	margin-right: 55px;
 }
 
 .search-item_adults input {
-	width: 112px;
-	margin-left: 35px;
+	width: 117px;
+	margin-left: 40px;
+	padding-left: 0;
+	padding-right: 14px;
+
 }
 
 .search-item_children input {
-	width: 112px;
-	margin-left: 26px;
+	width: 117px;
+	margin-left: 25px;
+	padding-left: 0;
+	padding-right: 12px;
 }
 
 .search-item_adults {
@@ -524,19 +540,9 @@ input[type='radio'].visually-hidden {
 .search-item_children {
 	display: flex;
 
-	margin-left: 53px;
+	margin-left: 50px;
 
 	align-items: center;
-}
-
-.search-item_arrival input {
-	width: 344px;
-	margin-left: 18px;
-}
-
-.search-item_departure input {
-	width: 344px;
-	margin-left: 18px;
 }
 
 .search-wrapper {
@@ -557,7 +563,7 @@ input[type='radio'].visually-hidden {
 }
 
 .search-btn_plus {
-	top: 12px;
+	top: 13px;
 	right: 5px;
 
 	background-color: transparent;
@@ -649,6 +655,7 @@ input:focus ~ .search-btn::after {
 
 	width: 458px;
 	margin-left: 55px;
+	margin-bottom: 55px;
 	padding: 15px 194px 15px 194px;
 
 	text-align: center;
