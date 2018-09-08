@@ -87,7 +87,7 @@
 		<section class="search">
 			<h2>Заинтересовались?</h2>
 			<p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
-			<a href="#" class="button">Поиск гостиницы в Седоне</a>
+			<a href="#" class="button modal-button">Поиск гостиницы в Седоне</a>
 			<div class="modal">
 				<form class="offers" action="https://echo.htmlacademy.ru" method="post">
 					<div class="search-item_arrival_departure">
@@ -133,7 +133,12 @@
 					<button class="button-search" type="submit">Найти</button>
 				</form>
 			</div>
-			<img class="map" src="img/map@3x.jpg" width="1200" height="593" alt="map">
+			<div class="google-maps">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26190.46242550564!2d-111.78449344063218!3d34.86105634284522!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1536404509438" width="1200" height="588" style="border:0" allowfullscreen></iframe>
+			</div>
+			<div class="map">
+				<img src="img/map@3x.jpg" width="1200" height="593" alt="map">
+			</div>
 		</section>
 	</main>
 	<footer class="page-footer page-footer_1ndex">
@@ -159,6 +164,7 @@ height="41px" data-name="Layer 1" viewBox="0 0 113 39">
 			</a>
 		</div>
 	</footer>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
