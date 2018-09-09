@@ -506,7 +506,6 @@ input[type='radio'].visually-hidden {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	display: none;
 
 	width: 568px;
 	min-height: 392px;
@@ -518,7 +517,7 @@ input[type='radio'].visually-hidden {
 }
 
 .modal-show {
-	display: block;
+	display: none;
 }
 
 .search-item_arrival_departure {
@@ -1748,9 +1747,9 @@ input[type='radio'].visually-hidden {
 	background-color: #f2f2f2;
 }
 
-.modal-show {
+.modal {
 	animation-name: form;
-	animation-duration: .8s;
+	animation-duration: .6s;
 }
 
 @keyframes form {
